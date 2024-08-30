@@ -1,0 +1,21 @@
+{
+    "players": [
+        {
+            "name": "Mravenečník",
+            "type": "human",
+            "symbol": "X"
+        },
+        {
+            "name": "Pásovec",
+            "type": "human",
+            "symbol": "O"
+        },
+        {
+            "name": "Kapybara",
+            "type": "human",
+            "symbol": "@"
+        }
+    ],
+    "symbols_to_win": 5,
+    "ai_simulated_turns": 5
+}
