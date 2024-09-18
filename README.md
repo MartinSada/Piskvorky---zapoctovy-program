@@ -1,5 +1,6 @@
 # Piškvorky
 Zápočtový program
+
 Autor: Martin Šáda
 
 ## Zadání:
