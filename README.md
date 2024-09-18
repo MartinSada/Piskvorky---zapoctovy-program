@@ -1,10 +1,10 @@
 # Piskvorky---zapoctovy-program
-Zadání:
+## Zadání:
 Jednoduchá, funkční hra piškvorky. Není nutné si nadměrně vyhrávat s grafikou.
 
 
 
-Technický popis:
+## Technický popis:
 Hra používá pro vykreslování primitivní grafiky v konzoli pip balíček curses a skládá se ze třech hlavních částí.
 
 První částí je třída Board, definovaná v souboru board.py. Tato třída udržuje informace o stavu hrací desky - kde jaký hráč nakreslil svoje symboly. Dále obsahuje dvě důležité funkce. Funkce get_symbol vrátí číslo hráče, jehož symbol je na dané souřadnici, nebo None pokud na souřadnici žádný symbol položen není. Funkce add_symbol se pokusí na danou souřadnici nakreslit symbol daného hráče a vrátí -1, pokud je souřadnice neplatná (nějaký symbol se zde už nachází), 0 pokud symbol byl položen ale hráč nevyhrál, nebo 1, pokud položením symbolu hráč vyhrál.
@@ -15,14 +15,14 @@ Třetí částí, která předchozí dvě spojuje do hratelné hry je hlavní so
 
 
 
-Instalace a spuštění:
+## Instalace a spuštění:
 Pro spuštěníé hry je nutno mít nainstalovaný Python 3 a pip balíček curses. Ten je možno na platformě Windows získat pomocí příkazu pip install windows-curses. Na ostatních platformách je curses součástí instalace Pythonu.
 
 Po nainstalování Pythonu a curses je možno hru spustit příkazem "python main.py" zadaným do konzole, spuštěné ve složce obsahující soubor main.py.
 
 
 
-Hra:
+## Hra:
 Po spuštění hry se v konzoli objeví hrací deska s blikajícím kurzorem a nahoře nad hrací deskou místo s informačními texty. Tyto texty hráčům sdělují, kdo je zrovna v průběhu hry na řadě.
 
 Hra se ovládá pomocí ŠIPEK a klávesy ENTER.
