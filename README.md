@@ -1,4 +1,7 @@
-# Piskvorky---zapoctovy-program
+# Piškvorky
+Zápočtový program
+Autor: Martin Šáda
+
 ## Zadání:
 Jednoduchá, funkční hra piškvorky. Není nutné si nadměrně vyhrávat s grafikou.
 
